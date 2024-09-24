@@ -28,7 +28,7 @@ print(f'The area of the rectangular room is {room_area} square feet')
 name = 'Alex'
 age = 17
 fav_color = 'Blue'
-message = 'My name is {0} and my age is {1} years old. my favorite color is {3}' .format(name, age, fav_color)
-
+message = 'My name is {0} and my age is {1} years old. my favorite color is {2}' .format(name, age, fav_color)
+print(message)
 
 
