@@ -16,6 +16,19 @@ print(f'{num2} minus {num1} equals {subtraction}')
 print(f'{num1} times {num2} equals {multiplication}')
 print(f'{num1} divided by {num2} equals {quotient_remainder}')
 
+# practice 2
+
+lv_length = float(input('What is the length of your living room in feet?: \n'))
+lv_width = float(input('What is the width of your living room on feet?: \n'))
+room_area = (lv_length * lv_width)
+print(f'The area of the rectangular room is {room_area} square feet')
+
+# practice 3
+
+name = 'Alex'
+age = 17
+fav_color = 'Blue'
+message = 'My name is {0} and my age is {1} years old. my favorite color is {3}' .format(name, age, fav_color)
 
 
 
