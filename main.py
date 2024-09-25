@@ -40,4 +40,20 @@ banana_tax = 2.08 * 0.06
 beets_tax = 2.43 * 0.06
 
 cabbage_total = cabbage + cabbage_tax
-print(cabbage_total)
+bananas_total = bananas + banana_tax
+beets_total = beets + beets_tax
+
+grand_total = cabbage_total + bananas_total + beets_total
+
+print(f'The sales tax on the cabbage is {cabbage_tax:.2f}$ and the grand total for the cabbage is {cabbage_total:.2f}$.')
+print(f'The sales tax on the bananas are {banana_tax:.2f}$ and the grand total for the bananas is {bananas_total:.2f}$.')
+print(f'The sales tax on the beets was {beets_tax:.2f}$ and the grand total is {beets_total:.2f}$.')
+print(f'The grand total of all items togethor is {grand_total:.2f}$.')
+
+
+
+
+friend_name = 'JJ'
+friends_school = 'Elk Rapids High School'
+message2 = 'My friends name is {0} and he attends {1} with me.' .format(friend_name, friends_school)
+print(message2)
