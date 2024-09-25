@@ -28,7 +28,16 @@ print(f'The area of the rectangular room is {room_area} square feet')
 name = 'Alex'
 age = 17
 fav_color = 'Blue'
-message = 'My name is {0} and my age is {1} years old. my favorite color is {2}' .format(name, age, fav_color)
+message = 'My name is {0} and my age is {1} years old. My favorite color is {2}' .format(name, age, fav_color)
 print(message)
 
+cabbage = 4.15
+bananas = 2.08
+beets = 2.43
 
+cabbage_tax = 4.15 * 0.06
+banana_tax = 2.08 * 0.06
+beets_tax = 2.43 * 0.06
+
+cabbage_total = cabbage + cabbage_tax
+print(cabbage_total)
